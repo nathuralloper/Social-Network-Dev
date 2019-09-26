@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb://localhost:27017/Social_Network_Dev",
-    "jwtSecret": "mysecrettoken"
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "35f9ebf9ec1c93640a30",
+    "githubSecret": "a35209706cf3a51e27b83d3c60edbc658f50c7b7"
 }
