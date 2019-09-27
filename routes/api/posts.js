@@ -10,6 +10,10 @@ const Profile = require('../../models/Profile');
 const User = require('../../models/User');
 
 
+
+
+
+
 // @route   POST api/posts
 // @desc    Create a post
 // @access  Private
@@ -100,6 +104,7 @@ router.delete('/:id', auth, async (req, res) => {
         res.status(500).send('Server error');
     }
 });
+
 
 
 module.exports = router;
